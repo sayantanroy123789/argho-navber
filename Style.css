@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.Container{
+    background-color:#CB5681;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: azure;
+}
+#logo{
+    /* background-color: yellow; */
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    margin-left: -100px;
+}
+.about{
+    /* background-color: #911414; */
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    font-size: 20px;
+    cursor: pointer;
+}
+#icon{
+    font-size: 24px;
+    
+}
+#name{
+    margin-left: -120px;
+}
+#home{
+    color: white;
+    text-decoration: none;
+}
